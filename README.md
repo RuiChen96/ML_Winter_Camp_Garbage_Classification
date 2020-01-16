@@ -44,7 +44,7 @@ python preprocessing.py
 python train.py
 ```
 
-We also provide [the pre-trained model]() on the garbage dataset, which has `top-1` accuracy of `93.66%` and `top-5` accuracy of `99.89%`.
+We also provide [the pre-trained model](https://drive.google.com/file/d/1CpuuKhKfVaz_JtI-aIbA-XwhqkHO0tcg/view?usp=sharing) on the garbage dataset, which has `top-1` accuracy of `93.66%` and `top-5` accuracy of `99.89%`.
 
 #### 3. WeChat Deployment
 
