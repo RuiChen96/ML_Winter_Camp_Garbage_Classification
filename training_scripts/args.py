@@ -1,6 +1,15 @@
-
+#!usr/bin/env python  
+#-*- coding:utf-8 _*- 
+"""
+@version: python3.6
+@author: ikkyu-wen
+@contact: wenruichn@gmail.com
+@time: 2019-08-15 14:25
+公众号：AI成长社
+知乎：https://www.zhihu.com/people/qlmx-61/columns
+"""
 import argparse
-from inference.build_net import model_names
+from build_net import model_names
 
 # Parse arguments
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
@@ -52,7 +61,7 @@ parser.add_argument('--weight-decay', '--wd', default=1e-4, type=float,
 parser.add_argument('--final-lr', '--fl', default=1e-3,type=float,
                     metavar='W', help='weight decay (default: 1e-3)')
 # Checkpoints
-parser.add_argument('-c', '--checkpoint', default='/home/ruichen/Documents/garbage/res_16_288_last1', type=str, metavar='PATH',
+parser.add_argument('-c', '--checkpoint', default='model_save', type=str, metavar='PATH',
                     help='path to save checkpoint (default: checkpoint)')
 parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
