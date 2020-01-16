@@ -35,7 +35,7 @@ Finally, run the pre-processing script
 
 ```bash
 cd ..
-python pre_processing.py
+python preprocessing.py
 ```
 
 #### 2. Model Training

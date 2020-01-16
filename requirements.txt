@@ -1,0 +1,11 @@
+flask==1.1.1
+wechatpy==1.8.4
+
+pytorch==1.1.0
+torchvision==0.2.2
+
+sklearn
+matplotlib==3.0.3
+numpy==1.16.3
+scikit-image==0.16.2
+pandas==0.25.3

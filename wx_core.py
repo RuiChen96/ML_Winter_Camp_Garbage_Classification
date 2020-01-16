@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from __future__ import print_function
 import os
 import json
@@ -21,12 +20,7 @@ from wechatpy.utils import ObjectDict
 from inference.build_net import make_model
 from args import args
 import urllib.request
-import seaborn as sns
-from pylab import savefig
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import normalize
 
-sns.set()
 
 # ============
 site_root = 'http://166.111.139.131'
