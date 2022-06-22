@@ -6,6 +6,6 @@ torchvision==0.2.2
 
 sklearn
 matplotlib==3.0.3
-numpy==1.16.3
+numpy==1.22.0
 scikit-image==0.16.2
 pandas==0.25.3
